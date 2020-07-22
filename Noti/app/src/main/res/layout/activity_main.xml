@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#A8D0DA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@color/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:id="@+id/autoComplete"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_toLeftOf="@id/imgSearch"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:textCursorDrawable="@drawable/custom_cursor"
+                android:hint="@string/search"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imgSearch"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_toLeftOf="@id/imgPlace"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"/>
+            <ImageView
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:id="@+id/imgPlace"
+                android:src="@drawable/ic_baseline_place_24"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"/>
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            app:tabIndicatorColor="@color/white"
+            app:tabTextColor="@color/black"
+            android:background="@color/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</layout>

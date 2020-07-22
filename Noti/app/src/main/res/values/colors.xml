@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#050505</color>
+    <color name="toolbar">#5EFEFEFF</color>
+    <color name="item_detail">#5BFDFDFC</color>
+    <color name="item_weather">#5BFDFDFC</color>
+    <color name="text_detail">#070707</color>
+    <color name="text_weather">#040404</color>
+    <color name="today">#63FBF7F7</color>
+    <color name="current">#5CFDFDFC</color>
+    <color name="current_temp">#43FDFDFC</color>
+    <color name="graphview">#59FDFDFC</color>
+    <color name="custom_background">#4DFEFFFF</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="lang">vi</string>
+    <string name="today">Hôm nay</string>
+    <string name="detail">Chi tiết 24h</string>
+    <string name="aweek">Một tuần</string>
+    <string name="feellike">Cảm thấy như:</string>
+    <string name="max">"Cao nhất: "</string>
+    <string name="min">Thấp nhất:</string>
+    <string name="current">Chi tiết</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="wind">Tốc độ gió</string>
+    <string name="clouds">Mây</string>
+    <string name="temp">Nhiệt độ</string>
+    <string name="rain">Lượng mưa</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="message_confirm">Bạn chưa bật định vị!</string>
+    <string name="search">Tìm kiếm...</string>
+    <string name="notification">Thông báo</string>
+    <string name="message_notification">Không tìm được địa chỉ phù hợp</string>
+    <string name="chart">Biểu đồ nhiệt độ trong 24h:</string>
+    <string name="wind_deg">Hướng gió</string>
+    <string name="pressure">Áp suất khí quyển</string>
+    <string name="sunrise">Thời gian mặt trời mọc</string>
+    <string name="sunset">Thời gian mặt trời lặn</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
